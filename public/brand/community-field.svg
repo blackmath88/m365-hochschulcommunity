@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 600" role="img" aria-labelledby="title desc">
+  <title id="title">Community field</title>
+  <desc id="desc">A field of autonomous institutional columns crossed by a shared open layer and a forward chevron.</desc>
+  <rect width="760" height="600" fill="#F7FAF9"/>
+
+  <g stroke="#C9D3D0" stroke-width="1.5" fill="none">
+    <line x1="110" y1="68" x2="110" y2="530"/>
+    <line x1="260" y1="68" x2="260" y2="530"/>
+    <line x1="410" y1="68" x2="410" y2="530"/>
+    <line x1="560" y1="68" x2="560" y2="530"/>
+    <line x1="650" y1="68" x2="650" y2="530"/>
+  </g>
+
+  <g fill="#FFFFFF" stroke="#C9D3D0" stroke-width="1.5">
+    <rect x="76" y="104" width="116" height="292"/>
+    <rect x="228" y="72" width="116" height="356"/>
+    <rect x="380" y="136" width="116" height="272"/>
+    <rect x="532" y="94" width="116" height="334"/>
+  </g>
+
+  <g fill="#172B3A">
+    <rect x="98" y="134" width="42" height="6"/>
+    <rect x="250" y="102" width="42" height="6"/>
+    <rect x="402" y="166" width="42" height="6"/>
+    <rect x="554" y="124" width="42" height="6"/>
+  </g>
+
+  <g fill="#D7E8E1">
+    <rect x="98" y="162" width="70" height="8"/>
+    <rect x="98" y="182" width="56" height="8"/>
+    <rect x="250" y="130" width="70" height="8"/>
+    <rect x="250" y="150" width="62" height="8"/>
+    <rect x="402" y="194" width="70" height="8"/>
+    <rect x="402" y="214" width="54" height="8"/>
+    <rect x="554" y="152" width="70" height="8"/>
+    <rect x="554" y="172" width="60" height="8"/>
+  </g>
+
+  <g opacity=".96">
+    <polygon points="42,292 188,292 238,328 92,328" fill="#88BDA7"/>
+    <polygon points="188,292 404,292 454,328 238,328" fill="#2E7D6B"/>
+    <polygon points="404,292 646,292 696,328 454,328" fill="#0F4D3B"/>
+  </g>
+
+  <g transform="translate(548 244)" opacity=".96">
+    <polygon points="0,0 34,0 78,50 44,50" fill="#88BDA7"/>
+    <polygon points="44,50 78,50 34,100 0,100" fill="#88BDA7" opacity=".62"/>
+    <polygon points="26,0 60,0 104,50 70,50" fill="#2E7D6B"/>
+    <polygon points="70,50 104,50 60,100 26,100" fill="#0F4D3B"/>
+  </g>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="76" y="470" fill="#172B3A" font-size="13" font-weight="700" letter-spacing="1.4">AUTONOMOUS INSTITUTIONS</text>
+    <text x="76" y="492" fill="#627078" font-size="12">local tenant · local rules · local responsibility</text>
+    <text x="424" y="270" fill="#2E7D6B" font-size="12" font-weight="700" letter-spacing="1.2">SHARED LAYER</text>
+    <text x="424" y="348" fill="#627078" font-size="12">knowledge · tools · practice · reuse</text>
+  </g>
+</svg>
