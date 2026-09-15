@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 176 140" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 100" role="img" aria-labelledby="title desc">
   <title id="title">Open Layers Chevron</title>
-  <desc id="desc">Four translucent modules overlap to form a shared forward direction.</desc>
-  <polygon points="8,8 56,8 104,70 56,70" fill="#88BDA7" fill-opacity=".78"/>
-  <polygon points="56,70 104,70 56,132 8,132" fill="#88BDA7" fill-opacity=".44"/>
-  <polygon points="54,8 102,8 168,70 120,70" fill="#2E7D6B" fill-opacity=".80"/>
-  <polygon points="120,70 168,70 102,132 54,132" fill="#0F4D3B" fill-opacity=".94"/>
+  <desc id="desc">Independent modules align into one shared forward direction.</desc>
+  <path d="M2 0h26l36 50H38z" fill="#88BDA7"/>
+  <path d="M38 50h26L28 100H2z" fill="#D7E8E1"/>
+  <path d="M30 0h28l60 50H88z" fill="#2E7D6B"/>
+  <path d="M88 50h30l-60 50H30z" fill="#0F4D3B"/>
 </svg>
