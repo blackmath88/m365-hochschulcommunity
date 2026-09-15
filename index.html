@@ -5,15 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="M365 Hochschulcommunity — Austausch, Lösungen und Wiederverwendung für Schweizer Hochschulen." />
   <title>M365 Hochschulcommunity</title>
+  <link rel="icon" href="/brand/v2/favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="/src/styles.css" />
-  <style>
-    .ol-icon{width:30px;height:30px;color:var(--deep);fill:none;stroke:currentColor;stroke-width:1.25;stroke-linecap:round;stroke-linejoin:round;flex:none}
-    .ol-icon--inverse{color:#fff;--ol-accent-opacity:.42}
-    .principle .ol-icon{margin:26px 0 -22px}
-    .case-band__steps .ol-icon{width:26px;height:26px;margin:22px 0 -18px;color:#d7e8e1;--ol-accent-opacity:.38}
-    .material-card__icon{display:flex;align-items:center;gap:10px;margin-top:24px;color:var(--deep)}
-    .material-card__icon .ol-icon{width:28px;height:28px}
-  </style>
+  <link rel="stylesheet" href="/src/brand-refresh.css" />
 </head>
 <body>
   <div class="site-shell">
@@ -66,19 +60,19 @@
           <div class="principles principles--editorial">
             <article class="principle">
               <span class="principle__no">01 / AUSTAUSCH</span>
-              <svg class="ol-icon" aria-hidden="true"><use href="/icons/open-layers-icons-sprite.svg#ol-exchange"/></svg>
+              <svg class="principle__icon" aria-hidden="true"><use href="/icons/open-layers-icons-sprite.svg#ol-exchange"/></svg>
               <h3>Erfahrungen sichtbar machen</h3>
               <p>Kaffeepausen, Vor-Ort-Treffen und thematische Sessions bringen Wissen aus Betrieb, Architektur, Adoption und Governance zusammen.</p>
             </article>
             <article class="principle">
               <span class="principle__no">02 / WIEDERVERWENDUNG</span>
-              <svg class="ol-icon" aria-hidden="true"><use href="/icons/open-layers-icons-sprite.svg#ol-reuse"/></svg>
+              <svg class="principle__icon" aria-hidden="true"><use href="/icons/open-layers-icons-sprite.svg#ol-reuse"/></svg>
               <h3>Vorhandenes zuerst prüfen</h3>
               <p>Wir vergleichen Werkzeuge, Ansätze und Betriebsmodelle und fragen zuerst, was bereits funktioniert — bevor neu gebaut oder beschafft wird.</p>
             </article>
             <article class="principle">
               <span class="principle__no">03 / EXPERIMENT</span>
-              <svg class="ol-icon" aria-hidden="true"><use href="/icons/open-layers-icons-sprite.svg#ol-experiment"/></svg>
+              <svg class="principle__icon" aria-hidden="true"><use href="/icons/open-layers-icons-sprite.svg#ol-experiment"/></svg>
               <h3>Klein anfangen, real testen</h3>
               <p>Wo ein gemeinsames Problem und ein konkreter Ausgangspunkt zusammentreffen, testen wir pragmatisch, ob Zusammenarbeit echten Mehrwert schafft.</p>
             </article>
@@ -97,10 +91,10 @@
             <a class="text-link text-link--light" href="/use-case/">Use Case ansehen →</a>
           </div>
           <div class="case-band__steps" aria-label="Experimentpfad">
-            <div><span>01</span><svg class="ol-icon ol-icon--inverse" aria-hidden="true"><use href="/icons/open-layers-icons-sprite.svg#ol-knowledge"/></svg><strong>Verstehen</strong><small>Technical Deep Dive</small></div>
-            <div><span>02</span><svg class="ol-icon ol-icon--inverse" aria-hidden="true"><use href="/icons/open-layers-icons-sprite.svg#ol-governance"/></svg><strong>Prüfen</strong><small>Architektur · Permissions · Betrieb</small></div>
-            <div><span>03</span><svg class="ol-icon ol-icon--inverse" aria-hidden="true"><use href="/icons/open-layers-icons-sprite.svg#ol-experiment"/></svg><strong>Ausprobieren</strong><small>Read-only / Test</small></div>
-            <div><span>04</span><svg class="ol-icon ol-icon--inverse" aria-hidden="true"><use href="/icons/open-layers-icons-sprite.svg#ol-decision"/></svg><strong>Entscheiden</strong><small>Adopt · Contribute · Buy · Stop</small></div>
+            <div><svg class="process__icon" aria-hidden="true"><use href="/icons/open-layers-icons-sprite.svg#ol-knowledge"/></svg><span>01</span><strong>Verstehen</strong><small>Technical Deep Dive</small></div>
+            <div><svg class="process__icon" aria-hidden="true"><use href="/icons/open-layers-icons-sprite.svg#ol-governance"/></svg><span>02</span><strong>Prüfen</strong><small>Architektur · Permissions · Betrieb</small></div>
+            <div><svg class="process__icon" aria-hidden="true"><use href="/icons/open-layers-icons-sprite.svg#ol-experiment"/></svg><span>03</span><strong>Ausprobieren</strong><small>Read-only / Test</small></div>
+            <div><svg class="process__icon" aria-hidden="true"><use href="/icons/open-layers-icons-sprite.svg#ol-decision"/></svg><span>04</span><strong>Entscheiden</strong><small>Adopt · Contribute · Buy · Stop</small></div>
           </div>
         </div>
       </section>
@@ -117,14 +111,14 @@
           <div class="materials materials--editorial">
             <a class="material-card" href="/materials/open-source/">
               <div class="material-card__meta"><span>01 / Perspektive</span><span>A4 · Print ready</span></div>
-              <div class="material-card__icon"><svg class="ol-icon" aria-hidden="true"><use href="/icons/open-layers-icons-sprite.svg#ol-open-source"/></svg></div>
+              <svg class="material-card__icon" aria-hidden="true"><use href="/icons/open-layers-icons-sprite.svg#ol-open-source"/></svg>
               <h3>Open Source bewusst nutzen</h3>
               <p>Nicht aus Prinzip. Sondern dort, wo Offenheit einen echten strategischen Vorteil schafft.</p>
               <span>Onepager öffnen →</span>
             </a>
             <a class="material-card" href="/materials/m365-governance/">
               <div class="material-card__meta"><span>02 / Use Case</span><span>A4 · Print ready</span></div>
-              <div class="material-card__icon"><svg class="ol-icon" aria-hidden="true"><use href="/icons/open-layers-icons-sprite.svg#ol-governance"/></svg></div>
+              <svg class="material-card__icon" aria-hidden="true"><use href="/icons/open-layers-icons-sprite.svg#ol-governance"/></svg>
               <h3>Warum ein gemeinsames M365-Governance-Tool?</h3>
               <p>Ein gemeinsamer Kern, lokale Kontrolle und ein begrenztes Experiment als nächster Schritt.</p>
               <span>Onepager öffnen →</span>
