@@ -1,8 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 100" role="img" aria-labelledby="title desc">
-  <title id="title">Open Layers Chevron</title>
-  <desc id="desc">Independent modules align into one shared forward direction.</desc>
-  <path d="M2 0h26l36 50H38z" fill="#88BDA7"/>
-  <path d="M38 50h26L28 100H2z" fill="#D7E8E1"/>
-  <path d="M30 0h28l60 50H88z" fill="#2E7D6B"/>
-  <path d="M88 50h30l-60 50H30z" fill="#0F4D3B"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 83 100" role="img" aria-label="M365 Hochschulcommunity"><title>M365 Hochschulcommunity</title><path fill="#9CC7B9" d="M0.00 30.72L27.54 50.00L46.90 36.45L27.54 22.89L0.00 3.61Z"/><path fill="#87BAAB" d="M0.00 69.28L19.36 82.83L27.54 77.11L46.90 63.55L27.54 50.00Z"/><path fill="#B2A9D6" d="M0.00 69.28L19.36 82.83L0.00 96.39Z"/><path fill="#267860" d="M27.54 50.00L46.90 63.55L66.27 50.00L46.90 36.45Z"/><path fill="#559985" d="M27.54 0.00L82.62 38.55L66.27 50.00L27.54 22.89Z"/><path fill="#155045" d="M27.54 100.00L82.62 61.45L66.27 50.00L27.54 77.11Z"/></svg>
