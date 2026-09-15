@@ -8,32 +8,45 @@
   <link rel="stylesheet" href="/src/styles.css" />
   <link rel="stylesheet" href="/src/brand-refresh.css" />
 </head>
-<body>
-  <div class="print-toolbar"><span>Material 01 · Open Source bewusst nutzen</span><div><a href="/" style="margin-right:14px">Community</a><button onclick="window.print()">Drucken / PDF</button></div></div>
-  <main class="a4-stage"><article class="a4">
+<body class="onepager">
+  <div class="print-toolbar"><span>Material 01 · Open Source bewusst nutzen</span><div><a href="/">Community</a><button onclick="window.print()">Drucken / PDF</button></div></div>
+  <main class="a4-stage"><article class="a4 sheet sheet--01">
     <header class="doc-head">
       <img class="doc-head__mark" src="/brand/v2/mark.svg" alt="" />
-      <span class="doc-head__vr"></span>
+      <span class="doc-head__vr" aria-hidden="true"></span>
       <div class="doc-head__name"><strong>M365</strong><span>Hochschulcommunity</span><small>Gemeinsam weiter mit offenen Lösungen.</small></div>
-      <div class="doc-head__meta">Open Source<br />Hochschulen<br />Souveränität</div><div class="doc-head__no">01</div>
+      <div class="doc-head__meta">Perspektive<br />Open Source<br />Diskussionsgrundlage</div>
+<div class="doc-head__no">01</div>
     </header>
-
-    <section class="doc-title" style="max-width:110mm"><p class="eyebrow">Perspektive</p><h1>Open Source bewusst nutzen</h1><p>Nicht aus Prinzip. Sondern dort, wo Offenheit einen echten Vorteil schafft.</p><div class="doc-accent"></div></section>
-
-    <section class="doc-body" style="width:103mm"><p><strong>Open Source ist kein Selbstzweck.</strong> Ein gutes kommerzielles Produkt kann die bessere Wahl sein, wenn es den Bedarf zuverlässig abdeckt, professionell betrieben wird und Aufwand und Nutzen stimmen.</p><p>Für Hochschulen und öffentliche Institutionen lohnt es sich trotzdem, Open Source aktiver als strategische Option zu prüfen: beim Übernehmen bestehender Lösungen, bei Eigenentwicklungen und überall dort, wo Wiederverwendung, Anpassbarkeit oder gemeinsame Weiterentwicklung echten Mehrwert schaffen.</p></section>
-
-    <img class="doc-visual" src="/brand/open-source-choice.svg" alt="Strategischer Entscheidungsraum zwischen Wiederverwendung, Anpassung, Beiträgen und professionellen Services" style="top:46mm;width:82mm" />
-
-    <section class="doc-grid" style="position:absolute;left:16mm;right:16mm;top:137mm;gap:10mm">
-      <div class="doc-body"><h2>Wo Open Source stark sein kann</h2><p><strong>Wiederverwenden statt neu anfangen.</strong> Gute bestehende Lösungen können übernommen, geprüft und angepasst werden. Das spart nicht automatisch Geld — aber oft doppelte Arbeit.</p><p><strong>Optionen erhalten.</strong> Offener Code schafft die Möglichkeit, Lösungen zu prüfen, weiterzuentwickeln oder den Dienstleister zu wechseln, ohne den Zugang zur Software selbst zu verlieren.</p><p><strong>Wissen erhalten.</strong> Architektur, Security-Reviews, Dokumentation und Betriebserfahrung können über einzelne Projekte oder Anbieter hinaus verfügbar bleiben.</p></div>
-      <div class="doc-body"><h2>Eine besondere Chance für Hochschulen</h2><p>Wenn mehrere Institutionen ähnliche Probleme lösen, kann Open Source Kooperation erleichtern: Eine Hochschule entwickelt, eine andere testet, eine dritte dokumentiert oder finanziert eine Erweiterung. Externe Anbieter können Support, Integration oder Betrieb übernehmen.</p><p>Diese Zusammenarbeit ist <strong>eine</strong> starke Möglichkeit — aber keine Voraussetzung. Open Source kann ebenso sinnvoll sein, wenn eine einzelne Hochschule eine bestehende Lösung übernimmt oder eine Eigenentwicklung so öffnet, dass andere später davon profitieren.</p></div>
-    </section>
-
-    <section class="doc-callout" style="position:absolute;left:16mm;right:16mm;top:224mm"><div class="doc-grid" style="grid-template-columns:.78fr 1.22fr;gap:10mm;align-items:start"><div><h3>Open Source gewinnt nicht automatisch</h3><div class="doc-body">Offener Code ist weder kostenlos noch wartungsfrei. Nachhaltigkeit braucht Ownership, Security, Releases, Dokumentation, Finanzierung und Betrieb.</div></div><div><h3>Die sinnvollere Frage</h3><div class="doc-body"><strong>Wo schafft Offenheit langfristig einen strategischen Vorteil — und wo ist eine andere Lösung sinnvoller?</strong></div></div></div></section>
-
-    <div class="doc-sources" style="position:absolute;left:16mm;right:16mm;top:256mm"><strong>Weiterlesen:</strong> <a href="https://www.bk.admin.ch/de/open-source-software-oss">Bundeskanzlei · Open Source Software</a> · <a href="https://www.bk.admin.ch/de/oss-hilfsmittel">OSS-Hilfsmittel</a> · <a href="https://www.bk.admin.ch/de/digitale-schweiz">Strategie Digitale Schweiz</a> · <a href="https://transfer.ethz.ch/researchers/oss.html">ETH Zürich · Open Source Software</a></div>
-
-    <footer class="doc-footer"><div><strong>M365 Hochschulcommunity</strong><br />Coordination — Boschung · Deutschmann · Imboden</div><div class="doc-footer__right">OPEN WHERE IT HELPS · BUY WHERE IT FITS · BUILD ONLY WHAT ADDS VALUE</div></footer>
+    <section class="sheet-title"><p class="sheet-eyebrow">Strategische Option</p><h1>Open Source bewusst nutzen</h1><p class="sheet-subtitle">Nicht aus Prinzip. Sondern dort, wo es sinnvoll ist.</p></section>
+    <!-- Canonical Markdown content, arranged as editable editorial sections. -->
+    <div class="sheet-intro"><p>Open Source ist kein Selbstzweck und nicht für jede Anwendung automatisch die beste Lösung. Ein gutes kommerzielles Produkt kann die bessere Wahl sein, wenn es den Bedarf zuverlässig abdeckt, professionell betrieben wird und die Kosten im Verhältnis zum Nutzen stimmen.</p>
+<p>Trotzdem lohnt es sich für Hochschulen und öffentliche Institutionen, Open Source aktiver als strategische Option zu betrachten. Nicht nur beim Veröffentlichen eigener Software, sondern auch bei der Frage, welche bestehenden Lösungen übernommen, angepasst oder gemeinsam weiterentwickelt werden können.</p>
+<p>Der Bund hat diese Richtung deutlich gestärkt. Nach Art. 9 EMBAG soll von Bundesbehörden entwickelte Software grundsätzlich als Open Source veröffentlicht werden; bei der Nutzung bestehender Software wird Open Source ausdrücklich gleichwertig zu proprietärer Software behandelt. Die Bundesverwaltung unterscheidet dabei zwischen <strong>Konsumation, Kontribution und Kreation</strong> von Open Source.</p></div>
+<div class="sheet-columns"><div><section class="sheet-section"><h2><svg class="sheet-icon" aria-hidden="true"><use href="/icons/open-layers-icons-sprite.svg#ol-reuse"></use></svg>Warum Open Source interessant sein kann</h2>
+<p>Der erste Vorteil ist <strong>Wiederverwendung</strong>. Wenn eine gute Lösung bereits existiert, kann es effizienter sein, sie zu prüfen, zu übernehmen oder weiterzuentwickeln, statt bei null zu beginnen oder für jedes Problem ein neues Produkt zu beschaffen.</p>
+<p>Ein zweiter Vorteil ist <strong>Unabhängigkeit</strong>. Bei Open Source bleibt der Quellcode verfügbar. Eine Organisation kann nachvollziehen, wie eine Lösung funktioniert, eigene Anpassungen vornehmen, einen anderen Dienstleister beauftragen oder den Betrieb anders organisieren. Das schafft Optionen und kann Abhängigkeiten reduzieren.</p>
+<p>Diese Frage gewinnt zusätzlich an Bedeutung, weil digitale Souveränität ein Schwerpunkt der Strategie Digitale Schweiz ist. Der Bundesrat beschreibt dabei ausdrücklich die wachsende Abhängigkeit von privaten Technologieanbietern und technologisch dominanten Staaten als strategische Herausforderung.</p>
+<p> Ein dritter Vorteil liegt in <strong>Transparenz und Lernfähigkeit</strong>. Offener Code kann überprüft, verglichen und verbessert werden. Für Hochschulen ist das besonders interessant, weil Software nicht nur Infrastruktur, sondern häufig auch Teil von Forschung, Lehre und institutionellem Wissen ist.</p>
+<p>Auch die ETH Zürich unterstützt Open Source ausdrücklich, weist aber gleichzeitig darauf hin, dass die Entscheidung für ein Open-Source-Modell sorgfältig geprüft werden muss. Ziele, Lizenzierung, mögliche spätere Kommerzialisierung und Kooperationen sollten früh geklärt werden.</p></section></div>
+<div><section class="sheet-section"><h2><svg class="sheet-icon" aria-hidden="true"><use href="/icons/open-layers-icons-sprite.svg#ol-knowledge"></use></svg>Eine besondere Chance: gemeinsam statt mehrfach lösen</h2>
+<p>Wo mehrere Hochschulen oder öffentliche Institutionen ähnliche Probleme haben, entsteht ein zusätzlicher Hebel. Eine bestehende Lösung kann gemeinsam geprüft werden, Erfahrungen lassen sich teilen, Security- oder Architekturfragen müssen nicht mehrfach beantwortet werden und Weiterentwicklungen können dort gebündelt werden, wo tatsächlich gemeinsamer Bedarf besteht.</p>
+<p>Diese Zusammenarbeit ist aber nur <strong>eine</strong> mögliche Form. Open Source kann genauso sinnvoll sein, wenn eine einzelne Hochschule eine bestehende Lösung übernimmt, wenn ein Dienstleister darauf Services anbietet oder wenn eine Institution ihre eigene Entwicklung so veröffentlicht, dass andere später davon profitieren können.</p></section>
+<section class="sheet-section"><h2><svg class="sheet-icon" aria-hidden="true"><use href="/icons/open-layers-icons-sprite.svg#ol-service"></use></svg>Open Source ist nicht automatisch günstiger</h2>
+<p>Offener Code beseitigt keine Arbeit. Eine ernsthaft betriebene Lösung braucht weiterhin Entwicklung, Wartung, Security, Releases, Dokumentation, Product Management und Support.</p>
+<p>Deshalb kann Open Source auch ganz selbstverständlich kommerzielle Leistungen einschliessen. Eine Hochschule kann Software selbst betreiben, gemeinsam mit anderen weiterentwickeln oder Entwicklung, Integration, Support und Betrieb bei einem Dienstleister einkaufen.</p>
+<p>Entscheidend ist nicht, ob Geld fliesst, sondern <strong>wo die Abhängigkeit liegt und wem die entstandene Lösung langfristig zur Verfügung steht</strong>.</p></section></div></div>
+<section class="sheet-section sheet-decision"><h2>Deshalb braucht es eine bewusste Entscheidung</h2>
+<p>Open Source ist besonders interessant, wenn eine bestehende Lösung wiederverwendet werden kann, Anpassbarkeit wichtig ist, langfristige Abhängigkeiten reduziert werden sollen oder mehrere Akteure ein ähnliches Problem lösen.</p>
+<p>Es ist weniger attraktiv, wenn ein Marktprodukt den Bedarf deutlich besser und wirtschaftlicher erfüllt, wenn niemand die langfristige Verantwortung für das Projekt übernehmen kann oder wenn eine offene Lösung nur deshalb gewählt wird, weil sie vermeintlich «gratis» ist.</p></section>
+<div class="sheet-summary"><p>Für Hochschulen kann Open Source dabei mehrere Dinge gleichzeitig ermöglichen: bestehende Lösungen wiederverwenden, Wissen erhalten, Abhängigkeiten reduzieren, externe Anbieter flexibel einbinden und – wo es passt – gemeinsam mit anderen Institutionen investieren.</p></div>
+<section class="sheet-section sheet-question"><h2>Die eigentliche Frage</h2>
+<p>Nicht:</p>
+<p><strong>Open Source oder kommerziell?</strong></p>
+<p>Sondern:</p>
+<blockquote><strong>Wo schafft Offenheit für uns einen echten strategischen Vorteil – und wo ist eine andere Lösung sinnvoller?</strong></blockquote></section><nav class="sheet-sources" aria-label="Quellen"><strong>Quellen</strong> <a href="https://www.bk.admin.ch/de/open-source-software-oss">Open Source Software beim Bund</a> · <a href="https://www.bk.admin.ch/de/oss-hilfsmittel">OSS-Hilfsmittel der Bundeskanzlei</a> · <a href="https://www.bk.admin.ch/de/digitale-schweiz">Strategie Digitale Schweiz</a> · <a href="https://transfer.ethz.ch/researchers/oss.html">Open Source an der ETH Zürich</a></nav>
+    <footer class="sheet-footer"><div><strong>M365 Hochschulcommunity</strong><span>Coordination — Boschung · Deutschmann · Imboden</span></div>
+<p>OPEN WHERE IT HELPS · BUY WHERE IT FITS · BUILD ONLY WHAT ADDS VALUE</p></footer>
   </article></main>
 </body>
 </html>
