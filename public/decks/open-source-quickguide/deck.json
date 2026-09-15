@@ -1,0 +1,57 @@
+{
+  "title": "Open-Source-Projekte an Hochschulen",
+  "width": 1280,
+  "height": 720,
+  "slides": [
+    {
+      "id": "s01",
+      "title": "Open-Source-Projekte an Hochschulen",
+      "src": "/decks/open-source-quickguide/slides/01-cover.html"
+    },
+    {
+      "id": "s02",
+      "title": "Open Source beginnt nicht mit GitHub",
+      "src": "/decks/open-source-quickguide/slides/02-not-just-github.html"
+    },
+    {
+      "id": "s03",
+      "title": "Wie offen soll es sein?",
+      "src": "/decks/open-source-quickguide/slides/03-what-does-open-mean.html"
+    },
+    {
+      "id": "s04",
+      "title": "Wer entscheidet?",
+      "src": "/decks/open-source-quickguide/slides/04-governance.html"
+    },
+    {
+      "id": "s05",
+      "title": "Ein mögliches Betriebsmodell",
+      "src": "/decks/open-source-quickguide/slides/05-operating-model.html"
+    },
+    {
+      "id": "s06",
+      "title": "Verantwortung technisch absichern",
+      "src": "/decks/open-source-quickguide/slides/06-shared-responsibility.html"
+    },
+    {
+      "id": "s07",
+      "title": "Beiträge sind mehr als Code",
+      "src": "/decks/open-source-quickguide/slides/07-contributions.html"
+    },
+    {
+      "id": "s08",
+      "title": "Was scheint zu funktionieren?",
+      "src": "/decks/open-source-quickguide/slides/08-what-works.html"
+    },
+    {
+      "id": "s09",
+      "title": "Was kann schiefgehen?",
+      "src": "/decks/open-source-quickguide/slides/09-what-fails.html"
+    },
+    {
+      "id": "s10",
+      "title": "So klein kann man anfangen",
+      "src": "/decks/open-source-quickguide/slides/10-start-small.html"
+    }
+  ]
+}

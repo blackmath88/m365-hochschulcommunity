@@ -6,7 +6,7 @@ Geprüft: 15. September 2026. Arbeitsgrundlage, keine Modellentscheidung.
 - [Leadership and Governance](https://opensource.guide/leadership-and-governance/)
 - [Maintaining Balance](https://opensource.guide/maintaining-balance-for-open-source-maintainers/)
 - [How to Contribute](https://opensource.guide/how-to-contribute/)
-- [Security Best Practices](https://opensource.guide/)
+- [Security Best Practices](https://opensource.guide/security-best-practices-for-your-project/)
 - [Apereo](https://www.apereo.org/about)
 - [Opencast](https://opencast.org/2025/)
 - [Kuali Foundation](https://www.kuali.org/)

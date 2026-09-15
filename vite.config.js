@@ -7,6 +7,7 @@ export default defineConfig({
       input: {
         home: resolve(__dirname, 'index.html'),
         resources: resolve(__dirname, 'resources/index.html'),
+        quickguideSlides: resolve(__dirname, 'resources/open-source-quickguide/slides/index.html'),
         quickguide: resolve(__dirname, 'resources/open-source-quickguide/index.html'),
         useCase: resolve(__dirname, 'use-case/index.html'),
         openSource: resolve(__dirname, 'materials/open-source/index.html'),
