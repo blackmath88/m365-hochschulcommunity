@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 100" role="img" aria-labelledby="title desc">
-  <title id="title">Open Layers Chevron</title>
-  <desc id="desc">Independent modules align into one shared forward direction.</desc>
-  <path d="M2 0h26l36 50H38z" fill="#88BDA7"/>
-  <path d="M38 50h26L28 100H2z" fill="#D7E8E1"/>
-  <path d="M30 0h28l60 50H88z" fill="#2E7D6B"/>
-  <path d="M88 50h30l-60 50H30z" fill="#0F4D3B"/>
-</svg>
