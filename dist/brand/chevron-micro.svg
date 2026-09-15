@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-labelledby="title desc">
+  <title id="title">Open Layers Chevron — micro</title>
+  <desc id="desc">Simplified small-size Open Layers mark.</desc>
+  <path d="M3 3h7l9 13-9 13H3l9-13z" fill="#88BDA7"/>
+  <path d="M11 3h7l11 13-11 13h-7l11-13z" fill="#0F4D3B"/>
+</svg>

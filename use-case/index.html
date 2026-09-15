@@ -12,7 +12,10 @@
     <header class="site-header">
       <div class="site-header__inner">
         <a class="brand-lockup" href="/">
-          <img src="/brand/chevron.svg" alt="" />
+          <picture>
+            <source media="(max-width: 560px)" srcset="/brand/chevron-micro.svg" />
+            <img src="/brand/chevron-primary.svg" alt="" />
+          </picture>
           <span class="brand-lockup__type"><strong>M365</strong><span>Hochschulcommunity</span></span>
         </a>
         <nav class="site-nav" aria-label="Hauptnavigation">
@@ -84,7 +87,7 @@
               <small>Material 02</small>
               <h3>Der Use Case auf einer Seite.</h3>
               <p>Print-ready A4-Onepager mit der Kernargumentation und der Experimentlogik.</p>
-              <img class="feature__art" src="/brand/chevron.svg" alt="" />
+              <img class="feature__art" src="/brand/chevron-primary.svg" alt="" />
             </a>
             <a class="feature" href="/materials/open-source/">
               <small>Material 01</small>

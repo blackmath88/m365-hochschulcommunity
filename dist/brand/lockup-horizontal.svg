@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 116" role="img" aria-labelledby="title desc">
+  <title id="title">M365 Hochschulcommunity</title>
+  <desc id="desc">Open Layers chevron with M365 Hochschulcommunity wordmark and claim.</desc>
+  <g transform="translate(8 8) scale(.9)">
+    <path d="M2 0h26l36 50H38z" fill="#88BDA7"/>
+    <path d="M38 50h26L28 100H2z" fill="#D7E8E1"/>
+    <path d="M30 0h28l60 50H88z" fill="#2E7D6B"/>
+    <path d="M88 50h30l-60 50H30z" fill="#0F4D3B"/>
+  </g>
+  <path d="M132 14v88" stroke="#0F4D3B" stroke-width="2"/>
+  <g fill="#172B3A" font-family="Manrope, Helvetica Neue, Arial, sans-serif">
+    <text x="158" y="44" font-size="31" font-weight="800">M365</text>
+    <text x="158" y="76" font-size="29" font-weight="600">Hochschulcommunity</text>
+    <text x="159" y="98" font-size="13" font-weight="400" letter-spacing=".2">Gemeinsam weiter mit offenen Lösungen.</text>
+  </g>
+</svg>
