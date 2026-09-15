@@ -1,0 +1,3 @@
+# Local dependencies and generated output (existing tracked files are retained).
+node_modules/
+dist/

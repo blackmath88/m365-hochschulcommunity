@@ -43,3 +43,18 @@ The material pages are designed at exact A4 dimensions with dedicated `@media pr
 Coordination — Kai Boschung · Lysann Deutschmann · Achim Imboden
 
 This is a working identity, not an official brand or formally constituted organisation.
+
+## Resources and presentation
+
+Navigation: **Community · Governance Experiment · Resources**.
+
+- `/resources/` — publication series 01–03
+- `/resources/open-source-quickguide/` — static web guide
+- `/resources/open-source-quickguide/slides/` — ten-slide presentation
+- `/resources/open-source-quickguide/slides/?print=1` — 16:9 PDF preview
+
+The deck is a standalone React entry. Edit its JSON manifest and HTML fragments
+under `public/decks/open-source-quickguide/`; the rest of the site remains static.
+Use arrow keys / Space, Home / End, O for overview, P for print, F for fullscreen
+and Esc to return. See [presentation mechanics](docs/quickguide-slides.md) and
+[final QA results](docs/site-qa.md).
