@@ -1,4 +1,14 @@
+<!-- BEGIN public-repo-header -->
+<div align="center">
+
 # M365 Hochschulcommunity
+
+<a href="https://github.com/blackmath88/m365-hochschulcommunity"><img alt="Primary language: HTML" src="https://img.shields.io/badge/language-HTML-526078?style=flat"></a>
+<a href="https://github.com/blackmath88/m365-hochschulcommunity/tree/main/docs"><img alt="Documentation" src="https://img.shields.io/badge/docs-guide-16796f?style=flat"></a>
+<a href="https://github.com/blackmath88/m365-hochschulcommunity/commits/main"><img alt="Last commit" src="https://img.shields.io/github/last-commit/blackmath88/m365-hochschulcommunity?style=flat&amp;color=737373"></a>
+
+</div>
+<!-- END public-repo-header -->
 
 A small, print-first website for the M365 Hochschulcommunity.
 
